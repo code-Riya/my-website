@@ -34,9 +34,9 @@ const Navbar = () => {
             <Link to="/Blog">Blog</Link>
           </li>
         </ul>
-        <a href="/ContactSection" className="book-button">
+        <Link to="/ContactSection" className="book-button">
           Book Now
-        </a>
+        </Link>
       </div>
 
       <div className="hamburger" onClick={toggleMenu}>
