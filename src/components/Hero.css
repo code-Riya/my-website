@@ -1,0 +1,172 @@
+.hero-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .hero-section {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+  }
+}
+
+.hero-video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  filter: brightness(0.6); /* Optional: improves readability */
+}
+
+/* Make sure content sits above video */
+.hero-section > *:not(.hero-video-background) {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-left {
+  flex: 1;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero-left {
+    text-align: left;
+    padding-right: 2rem;
+  }
+}
+.typewriter-text {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #ffffff;
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: #ffffff;
+  width: fit-content;
+  margin-bottom: 3.5rem;
+  margin-top: -90px;
+  animation: typing 4s steps(30, end) infinite, blink 0.75s step-end infinite;
+}
+
+/* Typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 28ch; /* Adjust based on character length */
+  }
+}
+
+/* Cursor blinking */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.mission-text,
+.mission-text1 {
+  color: #ffffff;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.hero-button {
+  margin-top: 1.5rem;
+  background-color: #ffffff;
+  color: #484938;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #9ba68d;
+  color: #ffffff;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-blob-wrapper {
+  position: relative;
+  width: 220px; /* smaller logo */
+  height: 260px;
+  background-color: #fdf6ec;
+  border-radius: 160px 160px 24px 24px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.arch-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 160px 160px 24px 24px;
+  z-index: 3;
+  position: relative;
+}
+
+/* Decorative Blobs */
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.6;
+  z-index: 1;
+  animation: float 6s ease-in-out infinite;
+}
+
+.blob1 {
+  background-color: #f5c48f;
+  width: 90px;
+  height: 90px;
+  top: -30px;
+  right: -30px;
+}
+
+.blob2 {
+  background-color: #c3c9a5;
+  width: 70px;
+  height: 70px;
+  bottom: -25px;
+  left: -25px;
+}
+
+.blob3 {
+  background-color: #ffe3e3;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: -15px;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

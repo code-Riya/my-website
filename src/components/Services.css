@@ -1,0 +1,147 @@
+/* === Section === */
+.services-section {
+  padding: 30px 20px 60px;
+  background-color: #f3ebdd;
+  overflow-x: hidden;
+}
+
+.services-heading {
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 40px 0 24px;
+  color: #2f3e2e;
+  font-weight: 600;
+}
+
+/* === Shared Scrollable Grid Style === */
+.services-grid {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0 16px 20px;
+  scroll-padding-left: 16px;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  /* Hide scrollbar for all browsers */
+  scrollbar-width: none; /* Firefox */
+}
+
+.services-grid::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.services-grid::before {
+  content: "";
+  flex: 0 0 8px;
+}
+
+/* === Shared Card Style === */
+.service-card {
+  min-width: 240px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  background: linear-gradient(145deg, #ffffff, #e6f4e4);
+  box-shadow: 0 6px 12px rgba(76, 175, 80, 0.15),
+    0 12px 24px rgba(0, 0, 0, 0.04);
+  border: 1px solid #d4e9d2;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 22px 16px;
+}
+
+.icon-wrapper {
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 2.4rem;
+  color: #4caf50;
+}
+
+/* === Individual Heights for Each Section === */
+.terrace-grid .service-card {
+  min-height: 260px;
+}
+
+.waste-grid .service-card {
+  min-height: 260px;
+}
+
+/* === Full Image Card Style === */
+.full-image-card {
+  max-width: 240px;
+  height: 230px;
+  flex: 0 0 auto;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 14px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent 60%);
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.full-image-card h3,
+.full-image-card p {
+  margin: 0;
+  font-weight: 500;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  line-height: 1.3;
+  font-size: 0.88rem;
+}
+
+.full-image-card h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.full-image-card .icon-wrapper {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  padding: 6px;
+  z-index: 2;
+}
+
+.full-image-card .icon {
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* === Spacing Between Sections === */
+.terrace-grid {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.waste-grid {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
