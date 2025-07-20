@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.2c24284b.css",
+    "main.js": "/my-website/static/js/main.b476acae.js",
+    "static/media/hero.mp4": "/my-website/static/media/hero.dc38e18594b5556f20db.mp4",
+    "static/media/about-image.jpg": "/my-website/static/media/about-image.3ce0d2ea08bb8218df03.jpg",
+    "static/media/form-bg.jpg": "/my-website/static/media/form-bg.19897d83f74262111a4d.jpg",
+    "static/media/Terrace2.jpg": "/my-website/static/media/Terrace2.e5d46b758785c2270d23.jpg",
+    "static/media/compost1.jpg": "/my-website/static/media/compost1.090e0a3fc01457686dec.jpg",
+    "static/media/compost2.jpg": "/my-website/static/media/compost2.739f4ab4e7c036430994.jpg",
+    "static/media/terrace-farming.jpg": "/my-website/static/media/terrace-farming.7c72da80e876c4e3ac46.jpg",
+    "static/media/Terrace4.jpg": "/my-website/static/media/Terrace4.0947694f93ecdc5104c2.jpg",
+    "static/media/compost4.jpg": "/my-website/static/media/compost4.194ae932522a0c242bbe.jpg",
+    "static/media/composting.jpg": "/my-website/static/media/composting.798b9ce16ffb13cc3d33.jpg",
+    "static/media/blog4.jpg": "/my-website/static/media/blog4.88c03bed161bfbebad5c.jpg",
+    "static/media/blog7.jpg": "/my-website/static/media/blog7.099da129d5dcc0f44655.jpg",
+    "static/media/Terrace3.jpg": "/my-website/static/media/Terrace3.cf5925bcf5c12d64b24c.jpg",
+    "static/media/compost3.jpg": "/my-website/static/media/compost3.a452a84b9cc78f756e95.jpg",
+    "static/media/blog5.jpg": "/my-website/static/media/blog5.278b6cb0fd9bdc3e8c0b.jpg",
+    "static/media/blog2.jpg": "/my-website/static/media/blog2.a9c130b43acec11dd530.jpg",
+    "static/media/blog1.jpg": "/my-website/static/media/blog1.7468b0b37ca20b7cd3d8.jpg",
+    "static/media/mitteco-logo.jpg": "/my-website/static/media/mitteco-logo.8558b4e05bca64131b22.jpg",
+    "static/media/blog6.jpg": "/my-website/static/media/blog6.b28bd1a214f622659414.jpg",
+    "static/media/blog3.jpg": "/my-website/static/media/blog3.abc14992ed1b13d860ea.jpg",
+    "index.html": "/my-website/index.html",
+    "main.2c24284b.css.map": "/my-website/static/css/main.2c24284b.css.map",
+    "main.b476acae.js.map": "/my-website/static/js/main.b476acae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c24284b.css",
+    "static/js/main.b476acae.js"
+  ]
+}
