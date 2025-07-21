@@ -21,20 +21,24 @@
   flex: 0.9;
   position: relative;
   z-index: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .about-image img {
-  width: 110%; /* slightly larger */
-  max-width: 520px; /* was 420px */
+  width: 100%;
+  max-width: 520px;
   height: auto;
   object-fit: cover;
   border-radius: 1rem;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
-  transform: scale(1.05); /* slight zoom effect */
+  transform: scale(1.05);
 }
 
+/* About content block */
 .about-content {
   flex: 1.2;
+  width: 100%;
   max-width: 750px;
   background-color: #c3c9a5;
   padding: 2rem;
@@ -43,8 +47,8 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   position: relative;
   z-index: 2;
-  margin-top: -100px; /* increased for more overlap upward */
-  margin-left: -100px; /* increased overlap on image */
+  margin-top: -100px;
+  margin-left: -100px;
 }
 
 .about-content h2 {
@@ -65,63 +69,18 @@
   color: #484938;
 }
 
-/* Location section styles */
+/* Location section */
 .about-locations {
   margin-top: 2rem;
   padding-top: 1rem;
   border-top: 1px solid #9ba68d;
+  text-align: center;
 }
 
 .about-locations h3 {
   font-size: 1.25rem;
   color: #484938;
   margin-bottom: 0.5rem;
-}
-
-.location-columns {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-top: 0.5rem;
-}
-
-.location-columns h4 {
-  margin: 0;
-  color: #675c48;
-  font-size: 1.1rem;
-}
-
-.location-columns p {
-  margin: 0.25rem 0;
-  color: #484938;
-  font-weight: 500;
-}
-
-/* Responsive stacking for smaller screens */
-@media (max-width: 768px) {
-  .about-section {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about-content {
-    margin-left: 0;
-    margin-top: 2rem;
-  }
-
-  .location-columns {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .location-columns div {
-    text-align: center;
-  }
-}
-
-.about-locations {
-  margin-top: 2rem;
-  text-align: center;
 }
 
 .scrolling-cities {
@@ -152,5 +111,60 @@
   }
   100% {
     transform: translateX(-50%);
+  }
+}
+
+/* 🌐 Responsive styling for mobile & tablets */
+@media (max-width: 1024px) {
+  .about-section {
+    flex-direction: column;
+    padding: 3rem 2rem;
+    gap: 2rem;
+  }
+
+  .about-image img {
+    max-width: 100%;
+    transform: none;
+  }
+
+  .about-content {
+    margin-left: 0;
+    margin-top: 0;
+    border-radius: 1rem;
+    padding: 1.5rem;
+  }
+
+  .about-content h2 {
+    font-size: 1.7rem;
+  }
+
+  .about-content p {
+    font-size: 0.95rem;
+  }
+
+  .scroll-track span {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-section {
+    padding: 2.5rem 1rem;
+  }
+
+  .about-content {
+    padding: 1.25rem;
+  }
+
+  .about-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-content p {
+    font-size: 0.9rem;
+  }
+
+  .scroll-track span {
+    font-size: 0.95rem;
   }
 }
