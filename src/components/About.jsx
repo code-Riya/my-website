@@ -33,20 +33,24 @@ const About = () => {
         viewport={{ once: false }}
       >
         <h2>About Mitteco</h2>
-        <p>
-          🌱 We bring green life back to concrete cities. What began as a
-          passion for nature and sustainable living has grown into a movement
-          transforming unused terraces into thriving gardens of organic
-          vegetables, fruits, and greenery.
+         <p>
+          🌱 Mitteco is a green initiative dedicated to transforming homes and
+          societies into eco-friendly spaces. We specialize in vermi composting,
+          organic composting, and terrace farming solutions designed for both
+          individual homes and housing societies.
         </p>
         <p>
-          We provide complete terrace gardening solutions—from setting up garden
-          infrastructure to planting, maintenance, and harvesting. Whether for
-          individual homes or housing societies.
+          We don’t just set up systems — we maintain them and supply
+          high-quality vermi compost to support ongoing sustainability. At
+          Mitteco, our vision is simple but powerful: “Make every space count.
+          Grow your own food. Heal the Earth.”
         </p>
 
         <p className="about-highlight">
-          Join us in making your city greener—one terrace at a time.
+          We believe that even the smallest balcony or terrace can become a
+          source of fresh, chemical-free vegetables. Our mission is to help
+          every household contribute to a sustainable Earth — one plant at a
+          time..
         </p>
 
         {/* Location Section with Toggle */}
