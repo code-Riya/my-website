@@ -1,0 +1,97 @@
+/* Image Hover Effects */
+.hover-effect {
+  width: 180px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  border: 4px solid white;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.08);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Already existing styles for layout remain unchanged */
+.farming-composting-split {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.split-row {
+  display: flex;
+  position: relative;
+  min-height: 500px;
+}
+
+.split-box {
+  flex: 1;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-bg {
+  background-color: #f3ebdd; /* Parchment */
+}
+
+.right-bg {
+  background-color: #c3c9a5; /* Olive */
+}
+
+.text {
+  max-width: 400px;
+}
+
+.text h2 {
+  font-size: 2rem;
+  color: #675c48; /* Bark */
+  margin-bottom: 0.75rem;
+}
+
+.text p {
+  color: #484938; /* Olivewood */
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Image Center */
+.center-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  z-index: 10;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .split-row {
+    flex-direction: column;
+  }
+
+  .center-image {
+    position: static;
+    transform: none;
+    margin: 2rem 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .hover-effect {
+    width: 140px;
+    margin: 1rem;
+  }
+
+  .split-box {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+}
