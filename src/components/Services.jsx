@@ -22,13 +22,6 @@ import "./Services.css";
 
 const services = [
   {
-    icon: <FaSeedling />,
-    title: "Composting Setup",
-    description:
-      "Eco-friendly composting systems for sustainable waste management.",
-    image: terrace1,
-  },
-  {
     icon: <FaLeaf />,
     title: "Terrace Garden Design",
     description:
@@ -66,6 +59,13 @@ const services = [
 
 const wasteServices = [
   {
+    icon: <FaSeedling />,
+    title: " Vermi Composting",
+    description:
+      "Eco-friendly composting systems for sustainable waste management.",
+    image: terrace1,
+  },
+  {
     title: "Home Composting Setup",
     text: "Home composting setup (bins, DIY kits)",
     image: waste1,
@@ -86,8 +86,8 @@ const wasteServices = [
     image: waste4,
   },
   {
-    title: "Compost Product Sales",
-    text: "Compost product sales",
+    title: "Vermi Compost & Compost Product Sales",
+    text: "Vermi Compost & Compost product sales",
     image: waste1,
   },
 ];
