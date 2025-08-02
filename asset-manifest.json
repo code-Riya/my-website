@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/MITTECO/static/css/main.62d27f74.css",
-    "main.js": "/MITTECO/static/js/main.041d0f02.js",
+    "main.js": "/MITTECO/static/js/main.8d65403f.js",
     "static/media/hero.mp4": "/MITTECO/static/media/hero.dc38e18594b5556f20db.mp4",
     "static/media/about-image.jpg": "/MITTECO/static/media/about-image.3ce0d2ea08bb8218df03.jpg",
     "static/media/form-bg.jpg": "/MITTECO/static/media/form-bg.19897d83f74262111a4d.jpg",
     "static/media/Terrace2.jpg": "/MITTECO/static/media/Terrace2.e5d46b758785c2270d23.jpg",
-    "static/media/compost1.jpg": "/MITTECO/static/media/compost1.090e0a3fc01457686dec.jpg",
     "static/media/compost2.jpg": "/MITTECO/static/media/compost2.739f4ab4e7c036430994.jpg",
-    "static/media/terrace-farming.jpg": "/MITTECO/static/media/terrace-farming.7c72da80e876c4e3ac46.jpg",
     "static/media/Terrace4.jpg": "/MITTECO/static/media/Terrace4.0947694f93ecdc5104c2.jpg",
+    "static/media/terrace-farming.jpg": "/MITTECO/static/media/terrace-farming.39818d360768a673496e.jpg",
     "static/media/compost4.jpg": "/MITTECO/static/media/compost4.194ae932522a0c242bbe.jpg",
+    "static/media/compost5.jpg": "/MITTECO/static/media/compost5.cc6a167522f4aad20879.jpg",
     "static/media/composting.jpg": "/MITTECO/static/media/composting.798b9ce16ffb13cc3d33.jpg",
     "static/media/blog4.jpg": "/MITTECO/static/media/blog4.88c03bed161bfbebad5c.jpg",
     "static/media/blog7.jpg": "/MITTECO/static/media/blog7.099da129d5dcc0f44655.jpg",
@@ -22,12 +22,13 @@
     "static/media/mitteco-logo.jpg": "/MITTECO/static/media/mitteco-logo.8558b4e05bca64131b22.jpg",
     "static/media/blog6.jpg": "/MITTECO/static/media/blog6.b28bd1a214f622659414.jpg",
     "static/media/blog3.jpg": "/MITTECO/static/media/blog3.abc14992ed1b13d860ea.jpg",
+    "static/media/compost1.jpg": "/MITTECO/static/media/compost1.d57ff581a029c92c5b74.jpg",
     "index.html": "/MITTECO/index.html",
     "main.62d27f74.css.map": "/MITTECO/static/css/main.62d27f74.css.map",
-    "main.041d0f02.js.map": "/MITTECO/static/js/main.041d0f02.js.map"
+    "main.8d65403f.js.map": "/MITTECO/static/js/main.8d65403f.js.map"
   },
   "entrypoints": [
     "static/css/main.62d27f74.css",
-    "static/js/main.041d0f02.js"
+    "static/js/main.8d65403f.js"
   ]
 }
