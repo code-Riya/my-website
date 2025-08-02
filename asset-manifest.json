@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MITTECO/static/css/main.cb0afe2b.css",
-    "main.js": "/MITTECO/static/js/main.e0d4248d.js",
+    "main.js": "/MITTECO/static/js/main.041d0f02.js",
     "static/media/hero.mp4": "/MITTECO/static/media/hero.dc38e18594b5556f20db.mp4",
     "static/media/about-image.jpg": "/MITTECO/static/media/about-image.3ce0d2ea08bb8218df03.jpg",
     "static/media/form-bg.jpg": "/MITTECO/static/media/form-bg.19897d83f74262111a4d.jpg",
@@ -24,10 +24,10 @@
     "static/media/blog3.jpg": "/MITTECO/static/media/blog3.abc14992ed1b13d860ea.jpg",
     "index.html": "/MITTECO/index.html",
     "main.cb0afe2b.css.map": "/MITTECO/static/css/main.cb0afe2b.css.map",
-    "main.e0d4248d.js.map": "/MITTECO/static/js/main.e0d4248d.js.map"
+    "main.041d0f02.js.map": "/MITTECO/static/js/main.041d0f02.js.map"
   },
   "entrypoints": [
     "static/css/main.cb0afe2b.css",
-    "static/js/main.e0d4248d.js"
+    "static/js/main.041d0f02.js"
   ]
 }
