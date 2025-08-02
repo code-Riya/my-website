@@ -8,6 +8,7 @@ import waste1 from "../assets/compost1.jpg";
 import waste2 from "../assets/compost2.jpg";
 import waste3 from "../assets/compost3.jpg";
 import waste4 from "../assets/compost4.jpg";
+import waste5 from "../assets/compost5.jpg";
 
 import { motion } from "framer-motion";
 import {
@@ -68,7 +69,7 @@ const wasteServices = [
   {
     title: "Home Composting Setup",
     text: "Home composting setup (bins, DIY kits)",
-    image: waste1,
+    image: waste5,
   },
   {
     title: "Society Waste Setup",
